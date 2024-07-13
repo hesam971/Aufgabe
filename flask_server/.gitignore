@@ -1,0 +1,11 @@
+*.py[cod]
+*$py.class
+dist/
+build/
+var/
+sdist/
+.venv/
+env/
+venv/
+.env
+.env.*
