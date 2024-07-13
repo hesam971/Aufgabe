@@ -1,0 +1,7 @@
+Run “npm install” in Client folder to install dependencies
+Run “pip install -r requirement.txt” in flask_server Folder
+Run create_database to create a database in Postgres, or just define a database name “spectrumK” in Postgres
+Run create_tables.py to create tables.
+Run import_data to import fake data in database
+Run main.py to read data as JSON file in Front-End
+write commend “npm run dev” to run front_end and see data in Front-End
