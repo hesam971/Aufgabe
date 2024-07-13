@@ -82,7 +82,7 @@ def log_download():
     session.add(new_log)
     session.commit()
 
-    return jsonify({"message": "Download logged successfully"}), 200
+    return jsonify({"message": "Download erfolgreich protokolliert"}), 200
 
 if __name__ == '__main__':
     app.run(debug=True)
