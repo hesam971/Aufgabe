@@ -7,7 +7,7 @@ from create_tables import Versichertendaten, Versicherungsvertraege, Schadensfae
 fake = faker.Faker()
 
 # Database
-DATABASE_URL = "postgresql://postgres:123456@localhost:5433/spectrumK"
+DATABASE_URL = "postgresql://NAME:PASSWORD@localhost:5433/YOUR_DATABASE_NAME"
 engine = create_engine(DATABASE_URL)
 Session = sessionmaker(bind=engine)
 session = Session()
