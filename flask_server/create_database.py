@@ -3,8 +3,8 @@ from psycopg2.extensions import ISOLATION_LEVEL_AUTOCOMMIT
 
 # Database
 DB_NAME = "YOUR_DATABASE_NAME"
-DB_USER = "postgres"
-DB_PASSWORD = "123456"
+DB_USER = "USER"
+DB_PASSWORD = "PASSWORD"
 DB_HOST = "localhost"
 DB_PORT = "5433"
 
