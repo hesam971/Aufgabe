@@ -2,7 +2,7 @@ from sqlalchemy import create_engine, Column, Integer, String, Date
 from sqlalchemy.ext.declarative import declarative_base
 
 # Database
-DATABASE_URL = "postgresql://postgres:123456@localhost:5433/spectrumK"
+DATABASE_URL = "postgresql://postgres:123456@localhost:5433/YOUR_DATABASE_NAME"
 engine = create_engine(DATABASE_URL)
 Base = declarative_base()
 
