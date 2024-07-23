@@ -2,7 +2,7 @@ import psycopg2
 from psycopg2.extensions import ISOLATION_LEVEL_AUTOCOMMIT
 
 # Database
-DB_NAME = "spectrumK"
+DB_NAME = "YOUR_DATABASE_NAME"
 DB_USER = "postgres"
 DB_PASSWORD = "123456"
 DB_HOST = "localhost"
